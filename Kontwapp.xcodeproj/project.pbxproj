@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1DED5122DC3B06002C25A3 /* CounterCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED5022DC3B06002C25A3 /* CounterCreationViewController.swift */; };
+		5B1DED5322DC3EA8002C25A3 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED5222DC3EA8002C25A3 /* Counter.swift */; };
+		5B1DED5522DC444E002C25A3 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED5422DC444E002C25A3 /* NetworkService.swift */; };
+		5B1DED5722DC4560002C25A3 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED5622DC4560002C25A3 /* HTTPMethod.swift */; };
+		5B1DED5922DC5863002C25A3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED5822DC5863002C25A3 /* NetworkError.swift */; };
+		5B1DED6122DC69FE002C25A3 /* CounterDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED6022DC69FE002C25A3 /* CounterDataHandler.swift */; };
+		5B1DED6422DC708C002C25A3 /* CounterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DED6222DC708C002C25A3 /* CounterModel.xcdatamodeld */; };
+		5BEF651322DC17990089199F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF651222DC17990089199F /* AppDelegate.swift */; };
+		5BEF651522DC17990089199F /* MainCounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF651422DC17990089199F /* MainCounterViewController.swift */; };
+		5BEF651822DC17990089199F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF651622DC17990089199F /* Main.storyboard */; };
+		5BEF651A22DC179B0089199F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF651922DC179B0089199F /* Assets.xcassets */; };
+		5BEF651D22DC179B0089199F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEF651B22DC179B0089199F /* LaunchScreen.storyboard */; };
+		5BEF652522DC25DC0089199F /* CounterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEF652422DC25DC0089199F /* CounterTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1DED5022DC3B06002C25A3 /* CounterCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCreationViewController.swift; sourceTree = "<group>"; };
+		5B1DED5222DC3EA8002C25A3 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		5B1DED5422DC444E002C25A3 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5B1DED5622DC4560002C25A3 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		5B1DED5822DC5863002C25A3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5B1DED6022DC69FE002C25A3 /* CounterDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDataHandler.swift; sourceTree = "<group>"; };
+		5B1DED6322DC708C002C25A3 /* CounterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CounterModel.xcdatamodel; sourceTree = "<group>"; };
+		5BEF650F22DC17990089199F /* Kontwapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kontwapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEF651222DC17990089199F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BEF651422DC17990089199F /* MainCounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCounterViewController.swift; sourceTree = "<group>"; };
+		5BEF651722DC17990089199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BEF651922DC179B0089199F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BEF651C22DC179B0089199F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BEF651E22DC179B0089199F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BEF652422DC25DC0089199F /* CounterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BEF650C22DC17990089199F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1DED5A22DC58C4002C25A3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DED5F22DC592B002C25A3 /* Storyboards */,
+				5B1DED5C22DC58EF002C25A3 /* ViewControllers */,
+				5B1DED5B22DC58E0002C25A3 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5B1DED5B22DC58E0002C25A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF652422DC25DC0089199F /* CounterTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B1DED5C22DC58EF002C25A3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF651422DC17990089199F /* MainCounterViewController.swift */,
+				5B1DED5022DC3B06002C25A3 /* CounterCreationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5B1DED5D22DC5901002C25A3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DED5422DC444E002C25A3 /* NetworkService.swift */,
+				5B1DED5622DC4560002C25A3 /* HTTPMethod.swift */,
+				5B1DED5822DC5863002C25A3 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5B1DED5E22DC591E002C25A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DED6222DC708C002C25A3 /* CounterModel.xcdatamodeld */,
+				5B1DED5222DC3EA8002C25A3 /* Counter.swift */,
+				5B1DED6022DC69FE002C25A3 /* CounterDataHandler.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B1DED5F22DC592B002C25A3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF651622DC17990089199F /* Main.storyboard */,
+				5BEF651B22DC179B0089199F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5BEF650622DC17990089199F = {
+			isa = PBXGroup;
+			children = (
+				5BEF651122DC17990089199F /* Kontwapp */,
+				5BEF651022DC17990089199F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BEF651022DC17990089199F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BEF650F22DC17990089199F /* Kontwapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BEF651122DC17990089199F /* Kontwapp */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DED5E22DC591E002C25A3 /* Models */,
+				5B1DED5D22DC5901002C25A3 /* Network */,
+				5B1DED5A22DC58C4002C25A3 /* UI */,
+				5BEF651222DC17990089199F /* AppDelegate.swift */,
+				5BEF651922DC179B0089199F /* Assets.xcassets */,
+				5BEF651E22DC179B0089199F /* Info.plist */,
+			);
+			path = Kontwapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BEF650E22DC17990089199F /* Kontwapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEF652122DC179B0089199F /* Build configuration list for PBXNativeTarget "Kontwapp" */;
+			buildPhases = (
+				5BEF650B22DC17990089199F /* Sources */,
+				5BEF650C22DC17990089199F /* Frameworks */,
+				5BEF650D22DC17990089199F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kontwapp;
+			productName = Kontwapp;
+			productReference = 5BEF650F22DC17990089199F /* Kontwapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BEF650722DC17990089199F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rodrigo Franco";
+				TargetAttributes = {
+					5BEF650E22DC17990089199F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BEF650A22DC17990089199F /* Build configuration list for PBXProject "Kontwapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BEF650622DC17990089199F;
+			productRefGroup = 5BEF651022DC17990089199F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BEF650E22DC17990089199F /* Kontwapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BEF650D22DC17990089199F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEF651D22DC179B0089199F /* LaunchScreen.storyboard in Resources */,
+				5BEF651A22DC179B0089199F /* Assets.xcassets in Resources */,
+				5BEF651822DC17990089199F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BEF650B22DC17990089199F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1DED5322DC3EA8002C25A3 /* Counter.swift in Sources */,
+				5B1DED5922DC5863002C25A3 /* NetworkError.swift in Sources */,
+				5BEF651522DC17990089199F /* MainCounterViewController.swift in Sources */,
+				5B1DED6122DC69FE002C25A3 /* CounterDataHandler.swift in Sources */,
+				5B1DED5722DC4560002C25A3 /* HTTPMethod.swift in Sources */,
+				5BEF651322DC17990089199F /* AppDelegate.swift in Sources */,
+				5B1DED5122DC3B06002C25A3 /* CounterCreationViewController.swift in Sources */,
+				5B1DED5522DC444E002C25A3 /* NetworkService.swift in Sources */,
+				5B1DED6422DC708C002C25A3 /* CounterModel.xcdatamodeld in Sources */,
+				5BEF652522DC25DC0089199F /* CounterTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BEF651622DC17990089199F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEF651722DC17990089199F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BEF651B22DC179B0089199F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEF651C22DC179B0089199F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BEF651F22DC179B0089199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BEF652022DC179B0089199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BEF652222DC179B0089199F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C8438QZM;
+				INFOPLIST_FILE = Kontwapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigo.kontwapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BEF652322DC179B0089199F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72C8438QZM;
+				INFOPLIST_FILE = Kontwapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodrigo.kontwapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BEF650A22DC17990089199F /* Build configuration list for PBXProject "Kontwapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEF651F22DC179B0089199F /* Debug */,
+				5BEF652022DC179B0089199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEF652122DC179B0089199F /* Build configuration list for PBXNativeTarget "Kontwapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEF652222DC179B0089199F /* Debug */,
+				5BEF652322DC179B0089199F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B1DED6222DC708C002C25A3 /* CounterModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B1DED6322DC708C002C25A3 /* CounterModel.xcdatamodel */,
+			);
+			currentVersion = 5B1DED6322DC708C002C25A3 /* CounterModel.xcdatamodel */;
+			path = CounterModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BEF650722DC17990089199F /* Project object */;
+}
