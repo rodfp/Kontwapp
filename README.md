@@ -14,7 +14,7 @@ All of these is demonstrated in the following video:<br/>
 [![Kontwapp demo](http://img.youtube.com/vi/KKejYXYabz0/0.jpg)](https://www.youtube.com/watch?v=KKejYXYabz0 "Kontwapp demo")
 
 ## The project
-Kontwapp counts with it's own network layer implementation which handles already the most common error types. It can be expanded to any customized errors needed to show to the user.<br />
+Kontwapp counts with its own network layer implementation which handles already the most common error types. It can be expanded to any customized errors needed to show to the user.<br />
 It has it's own core data model to keep the data stored and add offline functionality in the future.<br />
 Other than that, it's a simple app with two screens. One to watch your current counters and another to add any other counter that you'd like.<br />
 It also shows the total number of whatever objects or activities you're keeping track of.
