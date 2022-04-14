@@ -1,4 +1,4 @@
-# Kontwapp (iOS)
+# Kontwapp
 
 ## Brief description
 Kontwapp is an app that allows you to keep track of anything that you can count. Just add a counter with a name and start having fun.
