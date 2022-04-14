@@ -1,4 +1,4 @@
-# Kontwapp
+# Kontwapp (iOS)
 
 ## Brief description
 Kontwapp is an app that allows you to keep track of anything that you can count. Just add a counter with a name and start having fun.
@@ -21,7 +21,7 @@ It also shows the total number of whatever objects or activities you're keeping 
 
 ## Setup
 To setup Kontwapp, simply put the desired API URL in the KontwappAPIURL field included already in the Info.plist file of the project.<br />
-After that, you're good to go since there's no other dependencies on the project (that means no pods or other frameworks). 
+After that, you're good to go since there's no other dependencies on the project (that means no pods or other frameworks).
 
 ## Room for improvement
 1. The API has the limitation that it can only increase or decrease one counter at a time which can make the UI awkward. To solve this we could implement a better endpoint which takes several counters at a time and an update in their count. Not really increasing or decreasing but just editing the count number and we could sync with the server later.
