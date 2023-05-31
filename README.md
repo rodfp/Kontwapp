@@ -3,7 +3,7 @@
 ## Brief description
 Kontwapp is an app that allows you to keep track of anything that you can count. Just add a counter with a name and start having fun.
 
-## How it works
+## How it works.
 Kontwapp has these functionalities already integrated:
 1. It lets you add a new counter with the + button on the top right of the main screen.
 2. You can swipe any cell to the left to delete any counter that you want.
